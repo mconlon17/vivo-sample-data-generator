@@ -1,891 +1,1069 @@
 @prefix ns1: <http://purl.obolibrary.org/obo/> .
-@prefix ns2: <http://vivoweb.org/ontology/core#> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns3: <http://vivoweb.org/ontology/core#> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://vivo.mydomain.edu/individual/authorship1058922> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work2481437> .
+<http://vivo.mydomain.edu/individual/authorship1165757> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work1229558> .
 
-<http://vivo.mydomain.edu/individual/authorship1280438> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub4382265>,
-        <http://vivo.mydomain.edu/individual/work9452025> .
+<http://vivo.mydomain.edu/individual/authorship1617529> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work1577166> .
 
-<http://vivo.mydomain.edu/individual/authorship1396875> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8761438>,
-        <http://vivo.mydomain.edu/individual/work2027340> .
+<http://vivo.mydomain.edu/individual/authorship2081029> a ns3:Authorship ;
+    ns3:rank 4 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work8412447> .
 
-<http://vivo.mydomain.edu/individual/authorship1957432> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9851739>,
-        <http://vivo.mydomain.edu/individual/work3262887> .
+<http://vivo.mydomain.edu/individual/authorship2114783> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub1020306>,
+        <http://vivo.mydomain.edu/individual/work6756792> .
 
-<http://vivo.mydomain.edu/individual/authorship3214832> a ns2:Authorship ;
-    ns2:rank 5 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub2474857>,
-        <http://vivo.mydomain.edu/individual/work2027340> .
+<http://vivo.mydomain.edu/individual/authorship2336093> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub7348564>,
+        <http://vivo.mydomain.edu/individual/work8412447> .
 
-<http://vivo.mydomain.edu/individual/authorship3315184> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub5403220>,
-        <http://vivo.mydomain.edu/individual/work3262887> .
+<http://vivo.mydomain.edu/individual/authorship2927395> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8724035>,
+        <http://vivo.mydomain.edu/individual/work8412447> .
 
-<http://vivo.mydomain.edu/individual/authorship3426487> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8761438>,
-        <http://vivo.mydomain.edu/individual/work5751908> .
+<http://vivo.mydomain.edu/individual/authorship3174217> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person4320698>,
+        <http://vivo.mydomain.edu/individual/work1666950> .
 
-<http://vivo.mydomain.edu/individual/authorship3464333> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work9452025> .
+<http://vivo.mydomain.edu/individual/authorship3363828> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub7538086>,
+        <http://vivo.mydomain.edu/individual/work9194049> .
 
-<http://vivo.mydomain.edu/individual/authorship4037685> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work8880941> .
+<http://vivo.mydomain.edu/individual/authorship3782719> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work1959597> .
 
-<http://vivo.mydomain.edu/individual/authorship4244473> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work3262887> .
+<http://vivo.mydomain.edu/individual/authorship4377275> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work1229558> .
 
-<http://vivo.mydomain.edu/individual/authorship5262865> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9851739>,
-        <http://vivo.mydomain.edu/individual/work5751908> .
+<http://vivo.mydomain.edu/individual/authorship4657801> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work1959597> .
 
-<http://vivo.mydomain.edu/individual/authorship5263177> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8761438>,
-        <http://vivo.mydomain.edu/individual/work8880941> .
+<http://vivo.mydomain.edu/individual/authorship4751115> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work9194049> .
 
-<http://vivo.mydomain.edu/individual/authorship5367382> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work9452025> .
+<http://vivo.mydomain.edu/individual/authorship4980395> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work8412447> .
 
-<http://vivo.mydomain.edu/individual/authorship5486633> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work2027340> .
+<http://vivo.mydomain.edu/individual/authorship5018395> a ns3:Authorship ;
+    ns3:rank 5 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person4320698>,
+        <http://vivo.mydomain.edu/individual/work8412447> .
 
-<http://vivo.mydomain.edu/individual/authorship6017859> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub5147710>,
-        <http://vivo.mydomain.edu/individual/work2481437> .
+<http://vivo.mydomain.edu/individual/authorship5175990> a ns3:Authorship ;
+    ns3:rank 4 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub7287311>,
+        <http://vivo.mydomain.edu/individual/work1229558> .
 
-<http://vivo.mydomain.edu/individual/authorship6388028> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work6897034> .
+<http://vivo.mydomain.edu/individual/authorship5552837> a ns3:Authorship ;
+    ns3:rank 4 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person4320698>,
+        <http://vivo.mydomain.edu/individual/work1959597> .
 
-<http://vivo.mydomain.edu/individual/authorship6624613> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8761438>,
-        <http://vivo.mydomain.edu/individual/work9452025> .
+<http://vivo.mydomain.edu/individual/authorship5617091> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub9044494>,
+        <http://vivo.mydomain.edu/individual/work1871588> .
 
-<http://vivo.mydomain.edu/individual/authorship8006168> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work2481437> .
+<http://vivo.mydomain.edu/individual/authorship5884604> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work6756792> .
 
-<http://vivo.mydomain.edu/individual/authorship8112725> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9851739>,
-        <http://vivo.mydomain.edu/individual/work6897034> .
+<http://vivo.mydomain.edu/individual/authorship5978937> a ns3:Authorship ;
+    ns3:rank 5 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub3084084>,
+        <http://vivo.mydomain.edu/individual/work1959597> .
 
-<http://vivo.mydomain.edu/individual/authorship8169993> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8087862>,
-        <http://vivo.mydomain.edu/individual/work6897034> .
+<http://vivo.mydomain.edu/individual/authorship5988561> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work1666950> .
 
-<http://vivo.mydomain.edu/individual/authorship8238021> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work5751908> .
+<http://vivo.mydomain.edu/individual/authorship6215273> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8724035>,
+        <http://vivo.mydomain.edu/individual/work1871588> .
 
-<http://vivo.mydomain.edu/individual/authorship8357659> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub9254533>,
-        <http://vivo.mydomain.edu/individual/work8880941> .
+<http://vivo.mydomain.edu/individual/authorship6757980> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8724035>,
+        <http://vivo.mydomain.edu/individual/work1229558> .
 
-<http://vivo.mydomain.edu/individual/authorship8411801> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work8880941> .
+<http://vivo.mydomain.edu/individual/authorship6854566> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work4334250> .
 
-<http://vivo.mydomain.edu/individual/authorship8786047> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person8761438>,
-        <http://vivo.mydomain.edu/individual/work6897034> .
+<http://vivo.mydomain.edu/individual/authorship6960741> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work1871588> .
 
-<http://vivo.mydomain.edu/individual/authorship9096963> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work3262887> .
+<http://vivo.mydomain.edu/individual/authorship7279896> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person3164194>,
+        <http://vivo.mydomain.edu/individual/work1666950> .
 
-<http://vivo.mydomain.edu/individual/authorship9354479> a ns2:Authorship ;
-    ns2:rank 5 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub8609764>,
-        <http://vivo.mydomain.edu/individual/work6897034> .
+<http://vivo.mydomain.edu/individual/authorship7326426> a ns3:Authorship ;
+    ns3:rank 5 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8724035>,
+        <http://vivo.mydomain.edu/individual/work1666950> .
 
-<http://vivo.mydomain.edu/individual/authorship9617669> a ns2:Authorship ;
-    ns2:rank 4 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9083583>,
-        <http://vivo.mydomain.edu/individual/work2027340> .
+<http://vivo.mydomain.edu/individual/authorship7331166> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub2865612>,
+        <http://vivo.mydomain.edu/individual/work4334250> .
 
-<http://vivo.mydomain.edu/individual/authorship9688639> a ns2:Authorship ;
-    ns2:rank 2 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/stub2485907>,
-        <http://vivo.mydomain.edu/individual/work5751908> .
+<http://vivo.mydomain.edu/individual/authorship8208459> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8724035>,
+        <http://vivo.mydomain.edu/individual/work1959597> .
 
-<http://vivo.mydomain.edu/individual/authorship9827844> a ns2:Authorship ;
-    ns2:rank 1 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9851739>,
-        <http://vivo.mydomain.edu/individual/work2481437> .
+<http://vivo.mydomain.edu/individual/authorship8273863> a ns3:Authorship ;
+    ns3:rank 4 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub1350625>,
+        <http://vivo.mydomain.edu/individual/work1666950> .
 
-<http://vivo.mydomain.edu/individual/authorship9870382> a ns2:Authorship ;
-    ns2:rank 3 ;
-    ns2:relates <http://vivo.mydomain.edu/individual/person9851739>,
-        <http://vivo.mydomain.edu/individual/work2027340> .
+<http://vivo.mydomain.edu/individual/authorship8460881> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub2652913>,
+        <http://vivo.mydomain.edu/individual/work1577166> .
 
-<http://vivo.mydomain.edu/individual/concept1402433> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Cubism"@en .
+<http://vivo.mydomain.edu/individual/authorship8607814> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work4334250> .
 
-<http://vivo.mydomain.edu/individual/concept1746769> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "British Royal Navy"@en .
+<http://vivo.mydomain.edu/individual/authorship8682404> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/stub5312000>,
+        <http://vivo.mydomain.edu/individual/work7447351> .
 
-<http://vivo.mydomain.edu/individual/concept2751749> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Derrida"@en .
+<http://vivo.mydomain.edu/individual/authorship8774745> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person8037405>,
+        <http://vivo.mydomain.edu/individual/work1577166> .
 
-<http://vivo.mydomain.edu/individual/concept2959912> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Baseball"@en .
+<http://vivo.mydomain.edu/individual/authorship9202340> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person4320698>,
+        <http://vivo.mydomain.edu/individual/work6756792> .
 
-<http://vivo.mydomain.edu/individual/concept4701739> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "France 1500-1599"@en .
+<http://vivo.mydomain.edu/individual/authorship9476055> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://vivo.mydomain.edu/individual/person4320698>,
+        <http://vivo.mydomain.edu/individual/work7447351> .
 
-<http://vivo.mydomain.edu/individual/concept5131685> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Obstetrics"@en .
-
-<http://vivo.mydomain.edu/individual/concept5827843> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Informatics"@en .
-
-<http://vivo.mydomain.edu/individual/concept6038263> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "P53 tumor gene"@en .
-
-<http://vivo.mydomain.edu/individual/concept6097179> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Urology"@en .
-
-<http://vivo.mydomain.edu/individual/concept6524926> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://vivo.mydomain.edu/individual/concept1479702> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Political Parties"@en .
 
-<http://vivo.mydomain.edu/individual/concept6950806> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Criminology"@en .
-
-<http://vivo.mydomain.edu/individual/concept7199536> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Battle of Gettysburg"@en .
-
-<http://vivo.mydomain.edu/individual/concept7247073> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Bavaria"@en .
-
-<http://vivo.mydomain.edu/individual/concept7717932> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Liver Transplant"@en .
-
-<http://vivo.mydomain.edu/individual/concept9180748> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "35mm photography"@en .
-
-<http://vivo.mydomain.edu/individual/concept9475111> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Gender equity"@en .
-
-<http://vivo.mydomain.edu/individual/concept9588662> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Manifold algebra"@en .
-
-<http://vivo.mydomain.edu/individual/concept9792841> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Bauhaus"@en .
-
-<http://vivo.mydomain.edu/individual/journal1518772> a ns3:Journal ;
-    rdfs:label "Journal of the American Statistical Association"@en ;
-    ns3:issn "4239-4267"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal2140827> a ns3:Journal ;
-    rdfs:label "Nature"@en ;
-    ns3:issn "3184-7372"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal2604506> a ns3:Journal ;
-    rdfs:label "Science"@en ;
-    ns3:issn "2502-8083"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal2791559> a ns3:Journal ;
-    rdfs:label "Annals of Mathematics"@en ;
-    ns3:issn "4925-3354"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal3078088> a ns3:Journal ;
-    rdfs:label "PloS Biology"@en ;
-    ns3:issn "2158-6613"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal3708169> a ns3:Journal ;
-    rdfs:label "Annals of Chemistry"@en ;
-    ns3:issn "8030-4024"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal4391088> a ns3:Journal ;
-    rdfs:label "Proceedings of the Royal Society"@en ;
-    ns3:issn "8644-8097"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal4641303> a ns3:Journal ;
-    rdfs:label "Data Intelligence"@en ;
-    ns3:issn "5991-4740"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal4817194> a ns3:Journal ;
-    rdfs:label "Acta Paediatrica"@en ;
-    ns3:issn "7894-2746"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal5058215> a ns3:Journal ;
-    rdfs:label "Cell"@en ;
-    ns3:issn "6317-8223"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal5908572> a ns3:Journal ;
-    rdfs:label "JAMA"@en ;
-    ns3:issn "3091-7004"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal6212307> a ns3:Journal ;
-    rdfs:label "Acta Astronautica"@en ;
-    ns3:issn "5431-1496"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal6571335> a ns3:Journal ;
-    rdfs:label "Physical Review"@en ;
-    ns3:issn "9153-4222"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal7359849> a ns3:Journal ;
-    rdfs:label "Acta Mathematica"@en ;
-    ns3:issn "3824-2750"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal7746266> a ns3:Journal ;
-    rdfs:label "Journal of Teacher Education"@en ;
-    ns3:issn "7013-1899"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal8373965> a ns3:Journal ;
-    rdfs:label "New England Journal of Medicine"@en ;
-    ns3:issn "7217-2748"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal8886184> a ns3:Journal ;
-    rdfs:label "Annals of Internal Medicine"@en ;
-    ns3:issn "8450-4832"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal9161354> a ns3:Journal ;
-    rdfs:label "American Journal of Psychiatry"@en ;
-    ns3:issn "9932-3840"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal9366374> a ns3:Journal ;
-    rdfs:label "Library Science"@en ;
-    ns3:issn "2915-9094"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal9514750> a ns3:Journal ;
-    rdfs:label "Angewandte Chemie"@en ;
-    ns3:issn "8009-7170"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal9546358> a ns3:Journal ;
-    rdfs:label "Journal of Biochemistry"@en ;
-    ns3:issn "4115-7418"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal9785563> a ns3:Journal ;
-    rdfs:label "Accounts of Chemical Research"@en ;
-    ns3:issn "9030-6136"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/position1719942> a ns2:FacultyPosition ;
-    rdfs:label "Associate Professor"@en ;
-    ns2:dateTimeInterval <http://vivo.mydomain.edu/individual/interval4257074> ;
-    ns2:relates <http://vivo.mydomain.edu/individual/department5025025>,
-        <http://vivo.mydomain.edu/individual/person8087862> .
-
-<http://vivo.mydomain.edu/individual/position3391719> a ns2:FacultyPosition ;
-    rdfs:label "Assistant Professor"@en ;
-    ns2:dateTimeInterval <http://vivo.mydomain.edu/individual/interval2211016> ;
-    ns2:relates <http://vivo.mydomain.edu/individual/department5025025>,
-        <http://vivo.mydomain.edu/individual/person9083583> .
-
-<http://vivo.mydomain.edu/individual/position3523010> a ns2:FacultyPosition ;
-    rdfs:label "Associate Professor"@en ;
-    ns2:dateTimeInterval <http://vivo.mydomain.edu/individual/interval5687531> ;
-    ns2:relates <http://vivo.mydomain.edu/individual/department5025025>,
-        <http://vivo.mydomain.edu/individual/person8761438> .
-
-<http://vivo.mydomain.edu/individual/position6669437> a ns2:FacultyPosition ;
-    rdfs:label "Director"@en ;
-    ns2:dateTimeInterval <http://vivo.mydomain.edu/individual/interval4442835> ;
-    ns2:relates <http://vivo.mydomain.edu/individual/department5025025>,
-        <http://vivo.mydomain.edu/individual/person5755300> .
-
-<http://vivo.mydomain.edu/individual/position7209824> a ns2:FacultyPosition ;
-    rdfs:label "Associate Professor"@en ;
-    ns2:dateTimeInterval <http://vivo.mydomain.edu/individual/interval5839990> ;
-    ns2:relates <http://vivo.mydomain.edu/individual/department5025025>,
-        <http://vivo.mydomain.edu/individual/person9851739> .
-
-<http://vivo.mydomain.edu/individual/college8587296> a ns2:College ;
-    rdfs:label "Social Sciences"@en ;
-    ns1:BFO_0000050 <http://vivo.mydomain.edu/individual/university7278812> .
-
-<http://vivo.mydomain.edu/individual/concept2241272> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Ontology"@en .
-
-<http://vivo.mydomain.edu/individual/concept2532905> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://vivo.mydomain.edu/individual/concept1511616> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Sports Journalism"@en .
 
-<http://vivo.mydomain.edu/individual/concept2902534> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Marxism"@en .
-
-<http://vivo.mydomain.edu/individual/concept2913308> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Probability Theory"@en .
-
-<http://vivo.mydomain.edu/individual/concept3497213> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Physics"@en .
-
-<http://vivo.mydomain.edu/individual/concept3843070> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Economics"@en .
-
-<http://vivo.mydomain.edu/individual/concept5854788> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Set Theory"@en .
-
-<http://vivo.mydomain.edu/individual/concept6398115> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Coffee cultivation"@en .
-
-<http://vivo.mydomain.edu/individual/concept7349678> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Epistemology"@en .
-
-<http://vivo.mydomain.edu/individual/concept7863757> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://vivo.mydomain.edu/individual/concept1800831> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Music theory"@en .
 
-<http://vivo.mydomain.edu/individual/concept8093681> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "Behavioral Economics"@en .
+<http://vivo.mydomain.edu/individual/concept3246677> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Gender equity"@en .
 
-<http://vivo.mydomain.edu/individual/concept9465339> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://vivo.mydomain.edu/individual/concept3647612> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Baseball"@en .
+
+<http://vivo.mydomain.edu/individual/concept3700800> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Physics"@en .
+
+<http://vivo.mydomain.edu/individual/concept3850169> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Hypertension"@en .
 
-<http://vivo.mydomain.edu/individual/date2714063> a ns2:DateTimeValue ;
-    ns2:dateTime "1987-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept4149321> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "35mm photography"@en .
 
-<http://vivo.mydomain.edu/individual/date3635449> a ns2:DateTimeValue ;
-    ns2:dateTime "2005-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept4800355> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "British Royal Navy"@en .
 
-<http://vivo.mydomain.edu/individual/date6320404> a ns2:DateTimeValue ;
-    ns2:dateTime "2014-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept6019336> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "France 1500-1599"@en .
 
-<http://vivo.mydomain.edu/individual/date6461092> a ns2:DateTimeValue ;
-    ns2:dateTime "1985-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept6326872> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Marxism"@en .
 
-<http://vivo.mydomain.edu/individual/date7550951> a ns2:DateTimeValue ;
-    ns2:dateTime "1998-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept6482042> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Bauhaus"@en .
 
-<http://vivo.mydomain.edu/individual/date8139613> a ns2:DateTimeValue ;
-    ns2:dateTime "2008-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept7144413> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Informatics"@en .
 
-<http://vivo.mydomain.edu/individual/date8287742> a ns2:DateTimeValue ;
-    ns2:dateTime "1995-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept7765972> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Behavioral Economics"@en .
 
-<http://vivo.mydomain.edu/individual/date8876028> a ns2:DateTimeValue ;
-    ns2:dateTime "1985-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept8792401> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Set Theory"@en .
 
-<http://vivo.mydomain.edu/individual/date8932856> a ns2:DateTimeValue ;
-    ns2:dateTime "1987-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/concept9301013> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Probability Theory"@en .
 
-<http://vivo.mydomain.edu/individual/date9272560> a ns2:DateTimeValue ;
-    ns2:dateTime "1985-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/journal1399462> a ns4:Journal ;
+    rdfs:label "Acta Mathematica"@en ;
+    ns4:issn "6273-4712"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/date9411721> a ns2:DateTimeValue ;
-    ns2:dateTime "1979-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/journal1431645> a ns4:Journal ;
+    rdfs:label "Journal of Biochemistry"@en ;
+    ns4:issn "7276-1130"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/date9855521> a ns2:DateTimeValue ;
-    ns2:dateTime "1984-01-01T00:00:00"^^xsd:dateTime ;
-    ns2:dateTimePrecision ns2:yearPrecision .
+<http://vivo.mydomain.edu/individual/journal2367788> a ns4:Journal ;
+    rdfs:label "PloS Biology"@en ;
+    ns4:issn "9273-4472"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/interval2211016> a ns2:DateTimeInterval ;
-    ns2:start <http://vivo.mydomain.edu/individual/date6320404> .
-
-<http://vivo.mydomain.edu/individual/interval4257074> a ns2:DateTimeInterval ;
-    ns2:start <http://vivo.mydomain.edu/individual/date9411721> .
-
-<http://vivo.mydomain.edu/individual/interval4442835> a ns2:DateTimeInterval ;
-    ns2:start <http://vivo.mydomain.edu/individual/date8876028> .
-
-<http://vivo.mydomain.edu/individual/interval5687531> a ns2:DateTimeInterval ;
-    ns2:start <http://vivo.mydomain.edu/individual/date8287742> .
-
-<http://vivo.mydomain.edu/individual/interval5839990> a ns2:DateTimeInterval ;
-    ns2:start <http://vivo.mydomain.edu/individual/date2714063> .
-
-<http://vivo.mydomain.edu/individual/journal1767446> a ns3:Journal ;
-    rdfs:label "Journal of Biology"@en ;
-    ns3:issn "7452-2099"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal1830612> a ns3:Journal ;
-    rdfs:label "The Lancet"@en ;
-    ns3:issn "9005-3710"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal2398363> a ns3:Journal ;
-    rdfs:label "Journal of Ecology"@en ;
-    ns3:issn "7011-4704"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal5132570> a ns3:Journal ;
-    rdfs:label "Circulation"@en ;
-    ns3:issn "9363-5615"^^xsd:string .
-
-<http://vivo.mydomain.edu/individual/journal6417179> a ns3:Journal ;
+<http://vivo.mydomain.edu/individual/journal2448734> a ns4:Journal ;
     rdfs:label "PLoS One"@en ;
-    ns3:issn "5654-7832"^^xsd:string .
+    ns4:issn "2478-5439"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/journal8426732> a ns3:Journal ;
+<http://vivo.mydomain.edu/individual/journal2744641> a ns4:Journal ;
+    rdfs:label "Angewandte Chemie"@en ;
+    ns4:issn "9957-9625"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal2997052> a ns4:Journal ;
+    rdfs:label "New England Journal of Medicine"@en ;
+    ns4:issn "8560-8976"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal3044743> a ns4:Journal ;
     rdfs:label "Inorganic Chemistry"@en ;
-    ns3:issn "4719-9786"^^xsd:string .
+    ns4:issn "9314-4898"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/journal8983969> a ns3:Journal ;
+<http://vivo.mydomain.edu/individual/journal3712108> a ns4:Journal ;
+    rdfs:label "Acta Astronautica"@en ;
+    ns4:issn "6751-3544"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5271414> a ns4:Journal ;
+    rdfs:label "Cell"@en ;
+    ns4:issn "8970-9215"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5795314> a ns4:Journal ;
+    rdfs:label "The Lancet"@en ;
+    ns4:issn "2601-9845"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5854408> a ns4:Journal ;
+    rdfs:label "Data Intelligence"@en ;
+    ns4:issn "4094-9681"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5907787> a ns4:Journal ;
+    rdfs:label "Journal of Teacher Education"@en ;
+    ns4:issn "6782-4132"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5993111> a ns4:Journal ;
+    rdfs:label "Nature"@en ;
+    ns4:issn "8976-4738"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal6083269> a ns4:Journal ;
+    rdfs:label "Circulation"@en ;
+    ns4:issn "9680-5802"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal6162935> a ns4:Journal ;
+    rdfs:label "Annals of Mathematics"@en ;
+    ns4:issn "6326-5892"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal6489446> a ns4:Journal ;
+    rdfs:label "Library Science"@en ;
+    ns4:issn "8939-7527"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal6759526> a ns4:Journal ;
+    rdfs:label "Annals of Chemistry"@en ;
+    ns4:issn "2127-8243"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal7042759> a ns4:Journal ;
+    rdfs:label "Accounts of Chemical Research"@en ;
+    ns4:issn "1529-8097"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal8826748> a ns4:Journal ;
+    rdfs:label "JAMA"@en ;
+    ns4:issn "9223-5445"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal9457681> a ns4:Journal ;
+    rdfs:label "Proceedings of the Royal Society"@en ;
+    ns4:issn "5116-1144"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal9851237> a ns4:Journal ;
+    rdfs:label "Science"@en ;
+    ns4:issn "5095-6698"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/position1862861> a ns3:FacultyPosition ;
+    rdfs:label "Instructor"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval4398837> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person6061130> .
+
+<http://vivo.mydomain.edu/individual/position1935167> a ns3:FacultyPosition ;
+    rdfs:label "Professor Emeritus"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval4073213> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person4320698> .
+
+<http://vivo.mydomain.edu/individual/position3129629> a ns3:FacultyPosition ;
+    rdfs:label "Instructor"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval5194348> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person2212249> .
+
+<http://vivo.mydomain.edu/individual/position4715014> a ns3:FacultyPosition ;
+    rdfs:label "Associate Professor"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval8365251> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person8037405> .
+
+<http://vivo.mydomain.edu/individual/position4887419> a ns3:FacultyPosition ;
+    rdfs:label "Chair"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval9166319> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person8724035> .
+
+<http://vivo.mydomain.edu/individual/position7064841> a ns3:FacultyPosition ;
+    rdfs:label "Visiting Professor"@en ;
+    ns3:dateTimeInterval <http://vivo.mydomain.edu/individual/interval8087812> ;
+    ns3:relates <http://vivo.mydomain.edu/individual/department4445156>,
+        <http://vivo.mydomain.edu/individual/person3164194> .
+
+<http://vivo.mydomain.edu/individual/college7565877> a ns3:College ;
+    rdfs:label "Fine Arts"@en ;
+    ns1:BFO_0000050 <http://vivo.mydomain.edu/individual/university4798806> .
+
+<http://vivo.mydomain.edu/individual/concept2018257> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "P53 tumor gene"@en .
+
+<http://vivo.mydomain.edu/individual/concept2512990> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Battle of Gettysburg"@en .
+
+<http://vivo.mydomain.edu/individual/concept3306108> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Liver Transplant"@en .
+
+<http://vivo.mydomain.edu/individual/concept4913706> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Derrida"@en .
+
+<http://vivo.mydomain.edu/individual/concept5044803> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Cubism"@en .
+
+<http://vivo.mydomain.edu/individual/concept5076532> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Epistemology"@en .
+
+<http://vivo.mydomain.edu/individual/concept6284720> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Manifold algebra"@en .
+
+<http://vivo.mydomain.edu/individual/concept7268340> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Economics"@en .
+
+<http://vivo.mydomain.edu/individual/concept8441978> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Obstetrics"@en .
+
+<http://vivo.mydomain.edu/individual/concept9243114> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Coffee cultivation"@en .
+
+<http://vivo.mydomain.edu/individual/concept9294175> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Ontology"@en .
+
+<http://vivo.mydomain.edu/individual/concept9319486> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Criminology"@en .
+
+<http://vivo.mydomain.edu/individual/concept9678661> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Bavaria"@en .
+
+<http://vivo.mydomain.edu/individual/date1252851> a ns3:DateTimeValue ;
+    ns3:dateTime "2013-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date1452529> a ns3:DateTimeValue ;
+    ns3:dateTime "1979-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date1567209> a ns3:DateTimeValue ;
+    ns3:dateTime "2016-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date1900665> a ns3:DateTimeValue ;
+    ns3:dateTime "2000-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date1935862> a ns3:DateTimeValue ;
+    ns3:dateTime "1985-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date2658284> a ns3:DateTimeValue ;
+    ns3:dateTime "2001-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date2826597> a ns3:DateTimeValue ;
+    ns3:dateTime "1985-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date2982734> a ns3:DateTimeValue ;
+    ns3:dateTime "1999-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date3390646> a ns3:DateTimeValue ;
+    ns3:dateTime "2007-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date3475744> a ns3:DateTimeValue ;
+    ns3:dateTime "2013-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date4120878> a ns3:DateTimeValue ;
+    ns3:dateTime "1991-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date5443238> a ns3:DateTimeValue ;
+    ns3:dateTime "1987-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date6506922> a ns3:DateTimeValue ;
+    ns3:dateTime "2000-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date8166627> a ns3:DateTimeValue ;
+    ns3:dateTime "1989-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date8301355> a ns3:DateTimeValue ;
+    ns3:dateTime "2008-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/date9490804> a ns3:DateTimeValue ;
+    ns3:dateTime "1988-01-01T00:00:00"^^xsd:dateTime ;
+    ns3:dateTimePrecision ns3:yearPrecision .
+
+<http://vivo.mydomain.edu/individual/interval4073213> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date1900665> .
+
+<http://vivo.mydomain.edu/individual/interval4398837> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date2826597> .
+
+<http://vivo.mydomain.edu/individual/interval5194348> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date1452529> .
+
+<http://vivo.mydomain.edu/individual/interval8087812> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date9490804> .
+
+<http://vivo.mydomain.edu/individual/interval8365251> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date8301355> .
+
+<http://vivo.mydomain.edu/individual/interval9166319> a ns3:DateTimeInterval ;
+    ns3:start <http://vivo.mydomain.edu/individual/date2982734> .
+
+<http://vivo.mydomain.edu/individual/journal2930346> a ns4:Journal ;
+    rdfs:label "Journal of the American Statistical Association"@en ;
+    ns4:issn "1886-9165"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal3366622> a ns4:Journal ;
+    rdfs:label "Physical Review"@en ;
+    ns4:issn "8673-8799"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/journal5041276> a ns4:Journal ;
     rdfs:label "Advanced Materials"@en ;
-    ns3:issn "1768-2012"^^xsd:string .
+    ns4:issn "4880-5814"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/person5755300> a ns2:FacultyMember ;
-    rdfs:label "Robert R. Chisolm"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9569300> ;
-    ns2:eraCommonsId "4350273"^^xsd:string ;
-    ns2:hasResearchArea <http://vivo.mydomain.edu/individual/concept3497213>,
-        <http://vivo.mydomain.edu/individual/concept5854788>,
-        <http://vivo.mydomain.edu/individual/concept8093681>,
-        <http://vivo.mydomain.edu/individual/concept9465339> ;
-    ns2:orcidId <https://orcid.org/5765-2915-7289-2770> ;
-    ns2:overview "Emper vitae velit ac, cuRtor, id maximusUdin tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristique"@en ;
-    ns2:researcherId "3752419"^^xsd:string ;
-    ns2:scopusId "9313650"^^xsd:string .
+<http://vivo.mydomain.edu/individual/journal6915768> a ns4:Journal ;
+    rdfs:label "Annals of Internal Medicine"@en ;
+    ns4:issn "1395-8066"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub2474857> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name9001269> .
+<http://vivo.mydomain.edu/individual/journal7783744> a ns4:Journal ;
+    rdfs:label "Journal of Biology"@en ;
+    ns4:issn "5407-4312"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub2485907> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name9454935> .
+<http://vivo.mydomain.edu/individual/journal8336604> a ns4:Journal ;
+    rdfs:label "Acta Paediatrica"@en ;
+    ns4:issn "9122-7576"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub4382265> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name1847041> .
+<http://vivo.mydomain.edu/individual/journal8962519> a ns4:Journal ;
+    rdfs:label "American Journal of Psychiatry"@en ;
+    ns4:issn "7656-4929"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub5147710> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name4886410> .
+<http://vivo.mydomain.edu/individual/person2212249> a ns3:FacultyMember ;
+    rdfs:label "Gina A. Hermann"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9847616> ;
+    ns3:eraCommonsId "5635948"^^xsd:string ;
+    ns3:orcidId <https://orcid.org/5258-7921-5270-8512> ;
+    ns3:overview "Dunt tortor, id maximus ex nulla ut nEr vitae velit aEque et scelerisque placerat, diam arcu tincidunt tortor, id maximus ex nul"@en ;
+    ns3:researcherId "3626448"^^xsd:string ;
+    ns3:scopusId "9212747"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub5403220> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name1331548> .
+<http://vivo.mydomain.edu/individual/person6061130> a ns3:FacultyMember ;
+    rdfs:label "Walter S. Xerxes"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard1004561> ;
+    ns3:eraCommonsId "2973415"^^xsd:string ;
+    ns3:orcidId <https://orcid.org/6576-6889-2936-3963> ;
+    ns3:overview "Orbi scelerisque rhoncus dui non finibus. Nam ut lobortis nunc. Maecenas magna quS. Nam ut lobortis nunc. Maecenas magna quam, sempAm, rutrum sollicitudin tincidunt vitae, sodales et nibh. Pellentes"@en ;
+    ns3:researcherId "5181968"^^xsd:string ;
+    ns3:scopusId "9864712"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/stub8609764> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name2524063> .
+<http://vivo.mydomain.edu/individual/stub1020306> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name4294703> .
 
-<http://vivo.mydomain.edu/individual/stub9254533> a ns4:Kind ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name4298774> .
+<http://vivo.mydomain.edu/individual/stub1350625> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name9485699> .
 
-<http://vivo.mydomain.edu/individual/university7278812> a ns2:University ;
+<http://vivo.mydomain.edu/individual/stub2652913> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name5156720> .
+
+<http://vivo.mydomain.edu/individual/stub2865612> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name9814684> .
+
+<http://vivo.mydomain.edu/individual/stub3084084> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name3924538> .
+
+<http://vivo.mydomain.edu/individual/stub5312000> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name1062589> .
+
+<http://vivo.mydomain.edu/individual/stub7287311> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name4696932> .
+
+<http://vivo.mydomain.edu/individual/stub7348564> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name1680719> .
+
+<http://vivo.mydomain.edu/individual/stub7538086> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name1559330> .
+
+<http://vivo.mydomain.edu/individual/stub9044494> a ns2:Kind ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name9520917> .
+
+<http://vivo.mydomain.edu/individual/university4798806> a ns3:University ;
     rdfs:label "Sample University"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-email2136273> a ns4:Email,
-        ns4:Work ;
-    ns4:email "hxm360418@vivo.mydomain.edu"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-email3090106> a ns2:Email,
+        ns2:Work ;
+    ns2:email "wbh767136@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-email4612850> a ns4:Email,
-        ns4:Work ;
-    ns4:email "oxg641048@vivo.mydomain.edu"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-email3736656> a ns2:Email,
+        ns2:Work ;
+    ns2:email "rvk511190@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-email5287380> a ns4:Email,
-        ns4:Work ;
-    ns4:email "uqb329734@vivo.mydomain.edu"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-email4459192> a ns2:Email,
+        ns2:Work ;
+    ns2:email "gah563782@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-email8320049> a ns4:Email,
-        ns4:Work ;
-    ns4:email "awt225255@vivo.mydomain.edu"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-email7510599> a ns2:Email,
+        ns2:Work ;
+    ns2:email "fkf101600@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-email9340451> a ns4:Email,
-        ns4:Work ;
-    ns4:email "rrc147523@vivo.mydomain.edu"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-email9512401> a ns2:Email,
+        ns2:Work ;
+    ns2:email "bvn305906@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-name1331548> a ns4:Name ;
-    ns4:familyName "Ithimore"@en ;
-    ns4:givenName "Walter"@en .
+<http://vivo.mydomain.edu/individual/vcard-email9846555> a ns2:Email,
+        ns2:Work ;
+    ns2:email "wsx646474@vivo.mydomain.edu"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-name1847041> a ns4:Name ;
-    ns4:familyName "Roberts"@en ;
-    ns4:givenName "Al"@en .
+<http://vivo.mydomain.edu/individual/vcard-name1062589> a ns2:Name ;
+    ns2:familyName "Williams"@en ;
+    ns2:givenName "Violeta"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name2524063> a ns4:Name ;
-    ns4:familyName "Thomas"@en ;
-    ns4:givenName "Xinithia"@en .
+<http://vivo.mydomain.edu/individual/vcard-name1559330> a ns2:Name ;
+    ns2:familyName "Jones"@en ;
+    ns2:givenName "Pedro"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name2881769> a ns4:Name ;
-    ns4:additionalName "X."@en ;
-    ns4:familyName "Marks"@en ;
-    ns4:givenName "Harriet"@en .
+<http://vivo.mydomain.edu/individual/vcard-name1680719> a ns2:Name ;
+    ns2:familyName "Nunes"@en ;
+    ns2:givenName "Michael"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name3608243> a ns4:Name ;
-    ns4:additionalName "X."@en ;
-    ns4:familyName "George"@en ;
-    ns4:givenName "Olivia"@en .
+<http://vivo.mydomain.edu/individual/vcard-name1967294> a ns2:Name ;
+    ns2:additionalName "S."@en ;
+    ns2:familyName "Xerxes"@en ;
+    ns2:givenName "Walter"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name4298774> a ns4:Name ;
-    ns4:familyName "George"@en ;
-    ns4:givenName "Lauren"@en .
+<http://vivo.mydomain.edu/individual/vcard-name3924538> a ns2:Name ;
+    ns2:familyName "Ithimore"@en ;
+    ns2:givenName "Bob"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name4886410> a ns4:Name ;
-    ns4:familyName "Drew"@en ;
-    ns4:givenName "Olivia"@en .
+<http://vivo.mydomain.edu/individual/vcard-name4294703> a ns2:Name ;
+    ns2:familyName "Veronique"@en ;
+    ns2:givenName "Al"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name7460001> a ns4:Name ;
-    ns4:additionalName "Q."@en ;
-    ns4:familyName "Barclay"@en ;
-    ns4:givenName "Udell"@en .
+<http://vivo.mydomain.edu/individual/vcard-name4696932> a ns2:Name ;
+    ns2:familyName "Etherton"@en ;
+    ns2:givenName "Walter"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name7847891> a ns4:Name ;
-    ns4:additionalName "W."@en ;
-    ns4:familyName "Thomas"@en ;
-    ns4:givenName "Al"@en .
+<http://vivo.mydomain.edu/individual/vcard-name5156720> a ns2:Name ;
+    ns2:familyName "Xerxes"@en ;
+    ns2:givenName "Nathan"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name8087708> a ns4:Name ;
-    ns4:additionalName "R."@en ;
-    ns4:familyName "Chisolm"@en ;
-    ns4:givenName "Robert"@en .
+<http://vivo.mydomain.edu/individual/vcard-name5531850> a ns2:Name ;
+    ns2:additionalName "B."@en ;
+    ns2:familyName "Hermann"@en ;
+    ns2:givenName "Walter"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name9001269> a ns4:Name ;
-    ns4:familyName "Paddington"@en ;
-    ns4:givenName "Nathan"@en .
+<http://vivo.mydomain.edu/individual/vcard-name5784792> a ns2:Name ;
+    ns2:additionalName "K."@en ;
+    ns2:familyName "Franks"@en ;
+    ns2:givenName "Frank"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-name9454935> a ns4:Name ;
-    ns4:familyName "Ithimore"@en ;
-    ns4:givenName "Harriet"@en .
+<http://vivo.mydomain.edu/individual/vcard-name7781693> a ns2:Name ;
+    ns2:additionalName "V."@en ;
+    ns2:familyName "Nunes"@en ;
+    ns2:givenName "Bob"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-telephone1854941> a ns4:Telephone ;
-    ns4:telephone "+104 181110332"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-name8257632> a ns2:Name ;
+    ns2:additionalName "A."@en ;
+    ns2:familyName "Hermann"@en ;
+    ns2:givenName "Gina"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-telephone3103083> a ns4:Telephone ;
-    ns4:telephone "+5 171696897"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-name8528342> a ns2:Name ;
+    ns2:additionalName "V."@en ;
+    ns2:familyName "Kendall"@en ;
+    ns2:givenName "Robert"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-telephone6842637> a ns4:Telephone ;
-    ns4:telephone "+150 279207041"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-name9485699> a ns2:Name ;
+    ns2:familyName "Ulam"@en ;
+    ns2:givenName "Yiola"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-telephone8429114> a ns4:Telephone ;
-    ns4:telephone "+181 131920839"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-name9520917> a ns2:Name ;
+    ns2:familyName "Roberts"@en ;
+    ns2:givenName "James"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-telephone9401699> a ns4:Telephone ;
-    ns4:telephone "+25 542796945"^^xsd:string .
+<http://vivo.mydomain.edu/individual/vcard-name9814684> a ns2:Name ;
+    ns2:familyName "Qura"@en ;
+    ns2:givenName "Charley"@en .
 
-<http://vivo.mydomain.edu/individual/vcard-title1299405> a ns4:Title ;
-    ns4:title "Associate Professor"@en .
+<http://vivo.mydomain.edu/individual/vcard-telephone3416360> a ns2:Telephone ;
+    ns2:telephone "+213 793801371"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-title5834136> a ns4:Title ;
-    ns4:title "Assistant Professor"@en .
+<http://vivo.mydomain.edu/individual/vcard-telephone4443407> a ns2:Telephone ;
+    ns2:telephone "+200 986995241"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-title6332338> a ns4:Title ;
-    ns4:title "Associate Professor"@en .
+<http://vivo.mydomain.edu/individual/vcard-telephone4705719> a ns2:Telephone ;
+    ns2:telephone "+205 720044185"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-title7680426> a ns4:Title ;
-    ns4:title "Associate Professor"@en .
+<http://vivo.mydomain.edu/individual/vcard-telephone5639678> a ns2:Telephone ;
+    ns2:telephone "+21 272144138"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-title8373417> a ns4:Title ;
-    ns4:title "Director"@en .
+<http://vivo.mydomain.edu/individual/vcard-telephone5744263> a ns2:Telephone ;
+    ns2:telephone "+67 324951820"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-url1240691> a ns4:URL ;
-    rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+<http://vivo.mydomain.edu/individual/vcard-telephone9000302> a ns2:Telephone ;
+    ns2:telephone "+152 391636593"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/vcard-url1432925> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-title4272079> a ns2:Title ;
+    ns2:title "Professor Emeritus"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-title5281041> a ns2:Title ;
+    ns2:title "Visiting Professor"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-title7315144> a ns2:Title ;
+    ns2:title "Instructor"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-title7605265> a ns2:Title ;
+    ns2:title "Associate Professor"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-title8924312> a ns2:Title ;
+    ns2:title "Instructor"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-title8941447> a ns2:Title ;
+    ns2:title "Chair"@en .
+
+<http://vivo.mydomain.edu/individual/vcard-url1178299> a ns2:URL ;
     rdfs:label "Home Page"@en ;
-    ns2:rank 1 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url2316016> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url1197170> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url1633060> a ns2:URL ;
+    rdfs:label "Google Scholar"@en ;
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url1638879> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url2587790> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url2746770> a ns2:URL ;
     rdfs:label "Home Page"@en ;
-    ns2:rank 1 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url2467111> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url3298171> a ns2:URL ;
     rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url2652840> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url3372268> a ns2:URL ;
     rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url3897420> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url4460476> a ns2:URL ;
     rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url3901508> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url4560283> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url4609062> a ns2:URL ;
     rdfs:label "Home Page"@en ;
-    ns2:rank 1 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url4145325> a ns4:URL ;
-    rdfs:label "Google Scholar"@en ;
-    ns2:rank 2 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
-
-<http://vivo.mydomain.edu/individual/vcard-url5071895> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url4658420> a ns2:URL ;
     rdfs:label "Home Page"@en ;
-    ns2:rank 1 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url5838962> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url5382685> a ns2:URL ;
     rdfs:label "Google Scholar"@en ;
-    ns2:rank 2 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url6841836> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url6048797> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url6474003> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url6622995> a ns2:URL ;
+    rdfs:label "Google Scholar"@en ;
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url7018934> a ns2:URL ;
+    rdfs:label "Full Text"@en ;
+    ns3:rank 1 ;
+    ns2:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url8639782> a ns2:URL ;
     rdfs:label "Home Page"@en ;
-    ns2:rank 1 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url7314300> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url9008061> a ns2:URL ;
+    rdfs:label "Home Page"@en ;
+    ns3:rank 1 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
+
+<http://vivo.mydomain.edu/individual/vcard-url9407416> a ns2:URL ;
     rdfs:label "Google Scholar"@en ;
-    ns2:rank 2 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url7356443> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url9700073> a ns2:URL ;
     rdfs:label "Google Scholar"@en ;
-    ns2:rank 2 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard-url8496421> a ns4:URL ;
-    rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
-
-<http://vivo.mydomain.edu/individual/vcard-url9354577> a ns4:URL ;
-    rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
-
-<http://vivo.mydomain.edu/individual/vcard-url9446228> a ns4:URL ;
-    rdfs:label "Full Text"@en ;
-    ns2:rank 1 ;
-    ns4:url "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937161/"^^xsd:anyUri .
-
-<http://vivo.mydomain.edu/individual/vcard-url9945398> a ns4:URL ;
+<http://vivo.mydomain.edu/individual/vcard-url9874838> a ns2:URL ;
     rdfs:label "Google Scholar"@en ;
-    ns2:rank 2 ;
-    ns4:url "http://www.google.com"^^xsd:anyUri .
+    ns3:rank 2 ;
+    ns2:url "http://www.google.com"^^xsd:anyUri .
 
-<http://vivo.mydomain.edu/individual/vcard1280361> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url1240691> .
+<http://vivo.mydomain.edu/individual/vcard1004561> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email9846555> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name1967294> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone5639678> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title7315144> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url4609062>,
+        <http://vivo.mydomain.edu/individual/vcard-url9874838> .
 
-<http://vivo.mydomain.edu/individual/vcard2828416> a ns4:Individual ;
-    ns4:hasEmail <http://vivo.mydomain.edu/individual/vcard-email8320049> ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name7847891> ;
-    ns4:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone3103083> ;
-    ns4:hasTitle <http://vivo.mydomain.edu/individual/vcard-title7680426> ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url3901508>,
-        <http://vivo.mydomain.edu/individual/vcard-url5838962> .
+<http://vivo.mydomain.edu/individual/vcard1471434> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email3736656> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name8528342> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone4705719> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title5281041> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url9008061>,
+        <http://vivo.mydomain.edu/individual/vcard-url9700073> .
 
-<http://vivo.mydomain.edu/individual/vcard3382703> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url9354577> .
+<http://vivo.mydomain.edu/individual/vcard1572578> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email7510599> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name5784792> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone4443407> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title7605265> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url1633060>,
+        <http://vivo.mydomain.edu/individual/vcard-url4658420> .
 
-<http://vivo.mydomain.edu/individual/vcard4021990> a ns4:Individual ;
-    ns4:hasEmail <http://vivo.mydomain.edu/individual/vcard-email2136273> ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name2881769> ;
-    ns4:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone6842637> ;
-    ns4:hasTitle <http://vivo.mydomain.edu/individual/vcard-title1299405> ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url1432925>,
-        <http://vivo.mydomain.edu/individual/vcard-url7314300> .
+<http://vivo.mydomain.edu/individual/vcard2117792> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url7018934> .
 
-<http://vivo.mydomain.edu/individual/vcard5039148> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url3897420> .
+<http://vivo.mydomain.edu/individual/vcard2186117> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url4560283> .
 
-<http://vivo.mydomain.edu/individual/vcard5547127> a ns4:Individual ;
-    ns4:hasEmail <http://vivo.mydomain.edu/individual/vcard-email5287380> ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name7460001> ;
-    ns4:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone9401699> ;
-    ns4:hasTitle <http://vivo.mydomain.edu/individual/vcard-title5834136> ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url5071895>,
-        <http://vivo.mydomain.edu/individual/vcard-url9945398> .
+<http://vivo.mydomain.edu/individual/vcard2822487> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email9512401> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name7781693> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone9000302> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title8941447> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url5382685>,
+        <http://vivo.mydomain.edu/individual/vcard-url8639782> .
 
-<http://vivo.mydomain.edu/individual/vcard6928053> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url2652840> .
+<http://vivo.mydomain.edu/individual/vcard2972662> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url4460476> .
 
-<http://vivo.mydomain.edu/individual/vcard7843116> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url2467111> .
+<http://vivo.mydomain.edu/individual/vcard3498274> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url1638879> .
 
-<http://vivo.mydomain.edu/individual/vcard8132774> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url8496421> .
+<http://vivo.mydomain.edu/individual/vcard4011810> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url1197170> .
 
-<http://vivo.mydomain.edu/individual/vcard8507272> a ns4:Individual ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url9446228> .
+<http://vivo.mydomain.edu/individual/vcard8229525> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url6048797> .
 
-<http://vivo.mydomain.edu/individual/vcard9054647> a ns4:Individual ;
-    ns4:hasEmail <http://vivo.mydomain.edu/individual/vcard-email4612850> ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name3608243> ;
-    ns4:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone8429114> ;
-    ns4:hasTitle <http://vivo.mydomain.edu/individual/vcard-title6332338> ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url4145325>,
-        <http://vivo.mydomain.edu/individual/vcard-url6841836> .
+<http://vivo.mydomain.edu/individual/vcard8908661> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url2587790> .
 
-<http://vivo.mydomain.edu/individual/vcard9569300> a ns4:Individual ;
-    ns4:hasEmail <http://vivo.mydomain.edu/individual/vcard-email9340451> ;
-    ns4:hasName <http://vivo.mydomain.edu/individual/vcard-name8087708> ;
-    ns4:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone1854941> ;
-    ns4:hasTitle <http://vivo.mydomain.edu/individual/vcard-title8373417> ;
-    ns4:hasURL <http://vivo.mydomain.edu/individual/vcard-url2316016>,
-        <http://vivo.mydomain.edu/individual/vcard-url7356443> .
+<http://vivo.mydomain.edu/individual/vcard8951235> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url3298171> .
 
-<https://orcid.org/1411-8503-9026-3039> a <http://www.w3.org/2002/07/owl#Thing> .
+<http://vivo.mydomain.edu/individual/vcard9162846> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url6474003> .
 
-<https://orcid.org/4506-6561-4220-3013> a <http://www.w3.org/2002/07/owl#Thing> .
+<http://vivo.mydomain.edu/individual/vcard9649360> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email3090106> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name5531850> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone3416360> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title4272079> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url1178299>,
+        <http://vivo.mydomain.edu/individual/vcard-url9407416> .
 
-<https://orcid.org/5765-2915-7289-2770> a <http://www.w3.org/2002/07/owl#Thing> .
+<http://vivo.mydomain.edu/individual/vcard9695507> a ns2:Individual ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url3372268> .
 
-<https://orcid.org/5950-3556-2061-5049> a <http://www.w3.org/2002/07/owl#Thing> .
+<http://vivo.mydomain.edu/individual/vcard9847616> a ns2:Individual ;
+    ns2:hasEmail <http://vivo.mydomain.edu/individual/vcard-email4459192> ;
+    ns2:hasName <http://vivo.mydomain.edu/individual/vcard-name8257632> ;
+    ns2:hasTelephone <http://vivo.mydomain.edu/individual/vcard-telephone5744263> ;
+    ns2:hasTitle <http://vivo.mydomain.edu/individual/vcard-title8924312> ;
+    ns2:hasURL <http://vivo.mydomain.edu/individual/vcard-url2746770>,
+        <http://vivo.mydomain.edu/individual/vcard-url6622995> .
 
-<https://orcid.org/7123-7140-2958-4036> a <http://www.w3.org/2002/07/owl#Thing> .
+<https://orcid.org/3494-7232-6786-2820> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/work2481437> a ns3:AcademicArticle ;
-    rdfs:label " tempor est. Class aptent taciti soci"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard1280361> ;
-    ns3:abstract "Ceptos himenaeos. Morbi enim quam, rutrum sollicitudin tincidunt vitae, sodales et nibh  enim quam, rutrum sollicitudin tincidunt vitae, sodales et Ula euismod. Morbi scelerisque rhoncus dui non finibus. Nam ut lobortis nunc. Mae S aptent taciti socios Usto vehicula euismod. Morbi scelerisque rhoncus dui non finibus. Nam ut lobortis nunc. Maecena"@en ;
-    ns3:doi "https://doi.org/10.4797/933334"^^xsd:anyURI ;
-    ns3:end "132"^^xsd:string ;
-    ns3:start "87"^^xsd:string ;
-    ns3:volume "201"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date7550951> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal6417179> ;
-    ns2:hasSubjectArea <http://vivo.mydomain.edu/individual/concept2532905>,
-        <http://vivo.mydomain.edu/individual/concept7863757> ;
-    ns2:issue "39"^^xsd:string .
+<https://orcid.org/5258-7921-5270-8512> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/work3262887> a ns3:Patent ;
-    rdfs:label "Orbi scelerisque rhoncus dui non finibus. Nam ut lobortis nunc"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard6928053> ;
-    ns3:abstract "Nas magna quam, semper vitae velit ac, cursus tempor est. Class aptent taciti sociosqu ad lito Tae velit ac, cursus tempor est. Class aptent taciti sociosqu ad litora t Qu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi enim quam, rutrum soll Ellentesque habitant morbi tristi Lass aptent taciti sociosqu ad litora tor"@en ;
-    ns3:doi "https://doi.org/10.8235/768523"^^xsd:anyURI ;
-    ns3:end "215"^^xsd:string ;
-    ns3:start "188"^^xsd:string ;
-    ns3:volume "93"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date8139613> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal2398363> ;
-    ns2:issue "17"^^xsd:string .
+<https://orcid.org/5657-2111-3027-3499> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/work5751908> a ns3:AcademicArticle ;
-    rdfs:label "Orquent per conubia nostra"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard5039148> ;
-    ns3:abstract "T mi ac justo vehic Nim quam, rutrum sollicitudin tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristi Ra, per inceptos hi X nulla ut Nc. Maecenas magna quam, semper vitae velit ac, cu"@en ;
-    ns3:doi "https://doi.org/10.9954/308739"^^xsd:anyURI ;
-    ns3:end "181"^^xsd:string ;
-    ns3:start "138"^^xsd:string ;
-    ns3:volume "131"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date6461092> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal1830612> ;
-    ns2:hasSubjectArea <http://vivo.mydomain.edu/individual/concept2241272>,
-        <http://vivo.mydomain.edu/individual/concept2902534>,
-        <http://vivo.mydomain.edu/individual/concept3843070>,
-        <http://vivo.mydomain.edu/individual/concept6398115> ;
-    ns2:issue "34"^^xsd:string .
+<https://orcid.org/6130-1596-1222-8671> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/work8880941> a ns3:AcademicArticle ;
-    rdfs:label "I non finibus. Nam ut lobortis nunc. Maecenas magna quam, semper vitae velit ac, curs"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard3382703> ;
-    ns3:abstract "Aciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. M To vehicula euismod. Morbi scelerisque rhoncus dui non finibus. Nam ut lob Ulla ut nibh. Curabitur eget mi ac justo vehicula eui Naeos. Morb Iosqu ad litora torquent"@en ;
-    ns3:doi "https://doi.org/10.1993/118004"^^xsd:anyURI ;
-    ns3:end "90"^^xsd:string ;
-    ns3:start "48"^^xsd:string ;
-    ns3:volume "122"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date3635449> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8983969> ;
-    ns2:issue "47"^^xsd:string .
+<https://orcid.org/6337-9535-1782-1432> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/work9452025> a ns3:AcademicArticle ;
-    rdfs:label "T taciti sociosqu ad lito"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard7843116> ;
-    ns3:abstract "Rat, diam arcu tincidunt tortor, i Erat, diam arcu tincidunt tortor R conubia nostra, per inceptos himenaeos. M  maximus ex nulla ut nibh. Curabitur eget mi ac justo vehicula eui Am, rutrum sollicitudin tincidunt vitae, sodales et nibh. Pellentesque habitant mor"@en ;
-    ns3:doi "https://doi.org/10.9453/777928"^^xsd:anyURI ;
-    ns3:end "366"^^xsd:string ;
-    ns3:start "342"^^xsd:string ;
-    ns3:volume "76"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date8932856> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal1767446> ;
-    ns2:issue "21"^^xsd:string .
+<https://orcid.org/6576-6889-2936-3963> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://vivo.mydomain.edu/individual/department5025025> a ns2:AcademicDepartment ;
-    rdfs:label "Veterinary Medicine"@en ;
-    ns1:BFO_0000050 <http://vivo.mydomain.edu/individual/college8587296> .
+<http://vivo.mydomain.edu/individual/concept9894888> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Urology"@en .
 
-<http://vivo.mydomain.edu/individual/work2027340> a ns3:Report ;
-    rdfs:label "Emper vitae velit ac, cursus tempor est. Class aptent taciti sociosqu ad litora torqu"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard8507272> ;
-    ns3:abstract "As magna Inibus. Nam ut lobortis nunc. Maecenas magna quam, semper vitae velit ac, cursus tempor es R est. Cl S. Nam ut lobortis nunc. Maecenas magna quam, semper vi Os. Morbi enim quam, rutrum sollicitudin tinci"@en ;
-    ns3:doi "https://doi.org/10.6294/212718"^^xsd:anyURI ;
-    ns3:end "88"^^xsd:string ;
-    ns3:start "85"^^xsd:string ;
-    ns3:volume "105"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date9272560> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal5132570> ;
-    ns2:issue "21"^^xsd:string .
+<http://vivo.mydomain.edu/individual/work7447351> a ns3:ConferencePoster ;
+    rdfs:label "Ae, sodales et nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fa"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9162846> ;
+    ns4:abstract "Nubia nostra, per inceptos himenaeos. Morbi e Are, neque et scelerisque placerat, diam arc Orbi enim quam, rutrum sollicitudin tincidunt vitae, sodales et n Nt taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos Stra, per inceptos himenaeos. Morbi enim quam, rutrum solli"@en ;
+    ns4:doi "https://doi.org/10.6808/956322"^^xsd:anyURI ;
+    ns4:end "234"^^xsd:string ;
+    ns4:start "212"^^xsd:string ;
+    ns4:volume "226"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date6506922> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8336604> ;
+    ns3:issue "37"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/work6897034> a ns3:AcademicArticle ;
-    rdfs:label "Cenas magna quam, semper vitae velit ac, cursus tempor est. Class apt"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard8132774> ;
-    ns3:abstract "Ui non finibus. Nam ut lobortis nunc. Maecenas magna quam, semper vitae vel Citudin tincidunt vi Urabitur eget mi ac justo vehicula euismod. Morb Uismod. Morbi scelerisque rhoncus dui non Lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hi"@en ;
-    ns3:doi "https://doi.org/10.2059/332199"^^xsd:anyURI ;
-    ns3:end "136"^^xsd:string ;
-    ns3:start "110"^^xsd:string ;
-    ns3:volume "23"^^xsd:string ;
-    ns2:dateTimeValue <http://vivo.mydomain.edu/individual/date9855521> ;
-    ns2:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8426732> ;
-    ns2:issue "30"^^xsd:string .
+<http://vivo.mydomain.edu/individual/work9194049> a ns4:Letter ;
+    rdfs:label "Bi scelerisque rhoncus dui non finibus. Nam ut lobortis nunc. Maec"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard8229525> ;
+    ns4:abstract "Ibh. Curabitur eget mi ac justo vehicula euismod. Morbi scele Incidunt vitae, sodales et nibh. Pellentesque . Nam ut lobortis nunc Cula euismod. Morbi scelerisque rhoncus Ae velit ac, cursus tempor est. Class aptent taciti sociosqu ad litora"@en ;
+    ns4:doi "https://doi.org/10.6412/648707"^^xsd:anyURI ;
+    ns4:end "415"^^xsd:string ;
+    ns4:start "414"^^xsd:string ;
+    ns4:volume "228"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date1935862> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8255303> ;
+    ns3:issue "17"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/person8761438> a ns2:FacultyMember ;
-    rdfs:label "Olivia X. George"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9054647> ;
-    ns2:eraCommonsId "4682151"^^xsd:string ;
-    ns2:orcidId <https://orcid.org/5950-3556-2061-5049> ;
-    ns2:overview "R, id maximus ex nulla ut nibh. Curabitur eget mi ac justo vehiUe placerat, diam arcu tincidunt tortor, id maximus ex nulla ut nibhT scelerisque placerat, diam arcu tincidunt tortor, id maximus ex nulla ut nibh. Curab"@en ;
-    ns2:researcherId "6582520"^^xsd:string ;
-    ns2:scopusId "8044485"^^xsd:string .
+<http://vivo.mydomain.edu/individual/journal8255303> a ns4:Journal ;
+    rdfs:label "Journal of Ecology"@en ;
+    ns4:issn "3157-2461"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/person9851739> a ns2:FacultyMember ;
-    rdfs:label "Al W. Thomas"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard2828416> ;
-    ns2:eraCommonsId "4322029"^^xsd:string ;
-    ns2:hasResearchArea <http://vivo.mydomain.edu/individual/concept2913308>,
-        <http://vivo.mydomain.edu/individual/concept7349678> ;
-    ns2:orcidId <https://orcid.org/1411-8503-9026-3039> ;
-    ns2:overview "Ubia nostra, per inceptos himenaeos. Morbi enim quam, rutrum sollicitudin tiOr est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hStra, per inceptos himenaeos. Morbi enim"@en ;
-    ns2:researcherId "2818244"^^xsd:string ;
-    ns2:scopusId "8077459"^^xsd:string .
+<http://vivo.mydomain.edu/individual/work1577166> a ns4:Patent ;
+    rdfs:label "Nt tortor, id maximus ex nulla ut n"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard2117792> ;
+    ns4:abstract "Am ut lo . Class aptent taciti sociosqu ad litora torque  rhoncus dui non finibus. Nam ut lobortis nunc. Maece D. Morbi scelerisque rhoncus dui non finibus. Nam ut loborti Mus ex nulla ut nibh"@en ;
+    ns4:doi "https://doi.org/10.6614/154106"^^xsd:anyURI ;
+    ns4:end "350"^^xsd:string ;
+    ns4:start "332"^^xsd:string ;
+    ns4:volume "133"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date3390646> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8255303> ;
+    ns3:hasSubjectArea <http://vivo.mydomain.edu/individual/concept4913706>,
+        <http://vivo.mydomain.edu/individual/concept5076532>,
+        <http://vivo.mydomain.edu/individual/concept9678661> ;
+    ns3:issue "28"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/person8087862> a ns2:FacultyMember ;
-    rdfs:label "Harriet X. Marks"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard4021990> ;
-    ns2:eraCommonsId "2658483"^^xsd:string ;
-    ns2:orcidId <https://orcid.org/4506-6561-4220-3013> ;
-    ns2:overview "Tora torquent per conubia nostra, per inceptos himenaeosMenaeos. Morbi enim quam, rutrum sollicitOciosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi enim quam, rutrum s"@en ;
-    ns2:researcherId "2696861"^^xsd:string ;
-    ns2:scopusId "2207218"^^xsd:string .
+<http://vivo.mydomain.edu/individual/work1871588> a ns3:BlogPosting ;
+    rdfs:label "Er vitae velit ac, cursus tempor est. Class a"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard4011810> ;
+    ns4:abstract "Din tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristique s Ae, sodales et ni Honcus dui non finibus. Nam u Odales et nibh , diam arcu tincidunt tortor, id maximus ex null"@en ;
+    ns4:doi "https://doi.org/10.7871/649707"^^xsd:anyURI ;
+    ns4:end "144"^^xsd:string ;
+    ns4:start "100"^^xsd:string ;
+    ns4:volume "273"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date1252851> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal2930346> ;
+    ns3:issue "42"^^xsd:string .
 
-<http://vivo.mydomain.edu/individual/person9083583> a ns2:FacultyMember ;
-    rdfs:label "Udell Q. Barclay"@en ;
-    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard5547127> ;
-    ns2:eraCommonsId "6016466"^^xsd:string ;
-    ns2:orcidId <https://orcid.org/7123-7140-2958-4036> ;
-    ns2:overview "Iam arcu tincidunt tortor, id maximus ex nulla uIam arcu tincidunt tortor, iAgna quam, semper vitae velit ac, cursus tempor est. Class apt"@en ;
-    ns2:researcherId "9967050"^^xsd:string ;
-    ns2:scopusId "9960959"^^xsd:string .
+<http://vivo.mydomain.edu/individual/work4334250> a ns3:Speech ;
+    rdfs:label " ut nibh. Curabitur eget mi ac justo vehicula euismod. Morbi scelerisque rhoncus d"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard3498274> ;
+    ns4:abstract ", cursus tempor est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Per vitae velit ac, cursus tempor est. Class ap  ad litora torquent per conubia nostra, per inceptos h Ehicula euismod. Morbi scelerisque rhoncus dui non fi Uismod. Morbi scelerisque rhoncus du"@en ;
+    ns4:doi "https://doi.org/10.1236/171764"^^xsd:anyURI ;
+    ns4:end "307"^^xsd:string ;
+    ns4:start "291"^^xsd:string ;
+    ns4:volume "327"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date5443238> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal7783744> ;
+    ns3:issue "13"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/work6756792> a ns4:AcademicArticle ;
+    rdfs:label "Us dui non finibus. Nam ut lobortis nunc. Maecenas magna quam, semper vitae velit ac, cursus tempo"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard8908661> ;
+    ns4:abstract "Itora torquent per conubia nostra, per incep Ur eget mi ac justo vehicula euismod. Morbi scelerisque rhoncus dui non Lacerat, diam arcu tincidu Tent taciti sociosqu ad litora torquent per conubia nostra, per inceptos h Llentesque habitant"@en ;
+    ns4:doi "https://doi.org/10.8376/673596"^^xsd:anyURI ;
+    ns4:end "124"^^xsd:string ;
+    ns4:start "110"^^xsd:string ;
+    ns4:volume "360"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date8166627> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal6915768> ;
+    ns3:issue "2"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/work1229558> a ns4:AcademicArticle ;
+    rdfs:label "Icula euismod. Morbi scelerisque rhoncus dui non finibus. N"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard2186117> ;
+    ns4:abstract " finibus. Nam ut lobortis nunc. Maec Acerat, diam arcu tincidunt tortor, id maximus E velit ac, cursus tempor est. Cl Udin tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristi Sque placerat, diam arcu"@en ;
+    ns4:doi "https://doi.org/10.6764/264309"^^xsd:anyURI ;
+    ns4:end "28"^^xsd:string ;
+    ns4:start "21"^^xsd:string ;
+    ns4:volume "65"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date3475744> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal5041276> ;
+    ns3:issue "47"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/work1666950> a ns4:AcademicArticle ;
+    rdfs:label "Ui non finibus. Nam ut lobort"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9695507> ;
+    ns4:abstract "Lentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis eg Empor est. Class aptent tac Celerisque placerat, diam ar Stra, per inceptos himenaeos. Morbi en Ptent taciti sociosqu ad lit"@en ;
+    ns4:doi "https://doi.org/10.8074/889997"^^xsd:anyURI ;
+    ns4:end "501"^^xsd:string ;
+    ns4:start "469"^^xsd:string ;
+    ns4:volume "20"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date2658284> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal3366622> ;
+    ns3:hasSubjectArea <http://vivo.mydomain.edu/individual/concept3306108>,
+        <http://vivo.mydomain.edu/individual/concept5044803>,
+        <http://vivo.mydomain.edu/individual/concept9319486>,
+        <http://vivo.mydomain.edu/individual/concept9894888> ;
+    ns3:issue "36"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/work1959597> a ns4:AcademicArticle ;
+    rdfs:label "Lerisque pla"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard2972662> ;
+    ns4:abstract " tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristique se E velit ac, cursus tempor est Bia nostra, per inceptos himenaeos. Morbi enim quam Citi sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos Ptos himenaeos"@en ;
+    ns4:doi "https://doi.org/10.5380/472546"^^xsd:anyURI ;
+    ns4:end "478"^^xsd:string ;
+    ns4:start "477"^^xsd:string ;
+    ns4:volume "127"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date4120878> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8962519> ;
+    ns3:issue "22"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/work8412447> a ns4:AcademicArticle ;
+    rdfs:label "Im quam, rutrum sollicitudin tincidunt vitae, sodales et nibh. Pellentesque habitant m"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard8951235> ;
+    ns4:abstract "Lerisque placerat, diam arc Nceptos himenaeos. Morbi enim quam, rutrum Obortis nunc. Maecenas magna q Ncidunt vitae, sodales et nibh. Pellentesque habitant morbi tristiqu  ad litora torquent pe"@en ;
+    ns4:doi "https://doi.org/10.6507/853062"^^xsd:anyURI ;
+    ns4:end "261"^^xsd:string ;
+    ns4:start "241"^^xsd:string ;
+    ns4:volume "221"^^xsd:string ;
+    ns3:dateTimeValue <http://vivo.mydomain.edu/individual/date1567209> ;
+    ns3:hasPublicationVenue <http://vivo.mydomain.edu/individual/journal8255303> ;
+    ns3:issue "40"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/department4445156> a ns3:AcademicDepartment ;
+    rdfs:label "Engineering"@en ;
+    ns1:BFO_0000050 <http://vivo.mydomain.edu/individual/college7565877> .
+
+<http://vivo.mydomain.edu/individual/person4320698> a ns3:FacultyMember ;
+    rdfs:label "Walter B. Hermann"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard9649360> ;
+    ns3:eraCommonsId "1760772"^^xsd:string ;
+    ns3:hasResearchArea <http://vivo.mydomain.edu/individual/concept9894888> ;
+    ns3:orcidId <https://orcid.org/5657-2111-3027-3499> ;
+    ns3:overview "Menaeos. Morbi enim quam, rutrum sollicitudin tincidunt vitae, sodales et nibh. Pellen tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristiqueOr, id maximus ex nulla ut nibh. Curabitur eget"@en ;
+    ns3:researcherId "8866634"^^xsd:string ;
+    ns3:scopusId "5403200"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/person8724035> a ns3:FacultyMember ;
+    rdfs:label "Bob V. Nunes"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard2822487> ;
+    ns3:eraCommonsId "1688110"^^xsd:string ;
+    ns3:orcidId <https://orcid.org/6337-9535-1782-1432> ;
+    ns3:overview " non finibus. Nam ut lobortUi non finibus. Nam ut lob justo vehicula euismod. Morbi scelerisq"@en ;
+    ns3:researcherId "4066645"^^xsd:string ;
+    ns3:scopusId "7876122"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/person3164194> a ns3:FacultyMember ;
+    rdfs:label "Robert V. Kendall"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard1471434> ;
+    ns3:eraCommonsId "9475997"^^xsd:string ;
+    ns3:hasResearchArea <http://vivo.mydomain.edu/individual/concept2512990>,
+        <http://vivo.mydomain.edu/individual/concept7268340>,
+        <http://vivo.mydomain.edu/individual/concept9294175> ;
+    ns3:orcidId <https://orcid.org/6130-1596-1222-8671> ;
+    ns3:overview "Nubia nostra, per inceptos himenaeU tincidunt tortor, id maximus ex nulla ut nibh. Curabitur eget mi ac justUtrum sollicitudin tincidunt vitae, sodales et nibh. Pellentesque habitant morbi tristique se"@en ;
+    ns3:researcherId "5568442"^^xsd:string ;
+    ns3:scopusId "6550893"^^xsd:string .
+
+<http://vivo.mydomain.edu/individual/person8037405> a ns3:FacultyMember ;
+    rdfs:label "Frank K. Franks"@en ;
+    ns1:ARG_2000028 <http://vivo.mydomain.edu/individual/vcard1572578> ;
+    ns3:eraCommonsId "6277416"^^xsd:string ;
+    ns3:hasResearchArea <http://vivo.mydomain.edu/individual/concept2018257>,
+        <http://vivo.mydomain.edu/individual/concept6284720>,
+        <http://vivo.mydomain.edu/individual/concept8441978>,
+        <http://vivo.mydomain.edu/individual/concept9243114> ;
+    ns3:orcidId <https://orcid.org/3494-7232-6786-2820> ;
+    ns3:overview "Lass aptent taciti sociosqu ad litora torquent p finibus. Nam ut lobortis nunc. Maecenas magna quam, semper vitae velit ac, cursus tempor estCiosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi enim qua"@en ;
+    ns3:researcherId "2854010"^^xsd:string ;
+    ns3:scopusId "5000504"^^xsd:string .
 
 

@@ -9,7 +9,8 @@
     sample-data-generator.py writes the sample data to sample-data.ttl.  It writes one line to standard out summarizing
     it's work.  For example:
 
-    vivo.mydomain.edu 1 University; 2 colleges; 5 departments; 273 people; 3317 works; 268377 triples in language en 98.40 seconds
+    vivo.mydomain.edu 1 University; 2 colleges; 5 departments; 273 people; 3317 works; 268377 triples in language en
+    98.40 seconds
 
 """
 
@@ -46,7 +47,7 @@ journal_uris = []
 author_uris = set()
 work_uris = []
 site_dns = re.compile('^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)').match(ns)[1]
-titles = ['Assistant Professor', 'Associate Professor', 'Professor']
+titles = []
 work_types = [URIRef(bibo.AcademicArticle), URIRef(vivo.BlogPosting), URIRef(bibo.Book), URIRef(bibo.BookSection),
               URIRef(vivo.CaseStudy),
               URIRef(bibo.Chapter), URIRef(vivo.ConferencePaper), URIRef(vivo.ConferencePoster), URIRef(vivo.Database),
@@ -260,23 +261,19 @@ def add_work(self, p_uri):
 def add_coauthors(self, w_uri):
     global author_uris
 
-    # TODO: Troubleshoot display of works.  About stubs and authorName for template
-
     rank = 1
 
     # create additional stub authors for this work
 
-    stub_uris = [make_uri('stub')] #  for x in range(max(1, random.poisson(4)))]
+    stub_uris = [make_uri('stub')]  # for x in range(max(1, random.poisson(4)))]
     for stub_uri in stub_uris:
         given_name = first_names[random.randint(0, len(first_names) - 1)]
-        additional_name = string.ascii_uppercase[random.randint(0, 25)] + '.'
         family_name = last_names[random.randint(0, len(last_names) - 1)]
         self.add((stub_uri, URIRef(RDF.type), URIRef(vcard.Kind)))
         vn_uri = make_uri('vcard-name')
         self.add((stub_uri, URIRef(vcard.hasName), vn_uri))
         self.add((vn_uri, URIRef(RDF.type), URIRef(vcard.Name)))
         self.add((vn_uri, URIRef(vcard.givenName), Literal(given_name, lang=lang)))
-#        self.add((vn_uri, URIRef(vcard.additionalName), Literal(additional_name, lang=lang)))
         self.add((vn_uri, URIRef(vcard.familyName), Literal(family_name, lang=lang)))
 
     # find the existing author
