@@ -23,9 +23,9 @@ import configparser
 import time
 
 __author__ = "Michael Conlon"
-__copyright__ = "Copyright (c) 2018 Michael Conlon"
+__copyright__ = "Copyright (c) 2020 Michael Conlon"
 __license__ = "Apache-2"
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 # globals
 
@@ -305,7 +305,6 @@ def add_coauthors(self, w_uri):
             stop = True
 
     authors = authors + stub_uris
-    print(stub_uris)
 
     if len(authors) > 0:
         authors = random.choice(authors, len(authors), replace=False)  # shuffle the authors
@@ -442,17 +441,30 @@ def main():
             for k in range(random.randint(min_faculty_per_department, max_faculty_per_department + 1)):
                 p_uri = g.add_person(d_uri)
                 n_people += 1
+                print("Adding person", n_people)
 
-                for w in range(random.randint(min_works_per_faculty, min(random.zipf(1.8, 1) + random.zipf(1.7, 1),
-                                                                         max_works_per_faculty))):
+                # use numpy zipf to generate publication count.  numpy appears to be returning either an integer
+                # or an an array with a single element.  Regardless, convert to int
+
+                a = min(random.zipf(1.8, 1) + random.zipf(1.7, 1), max_works_per_faculty)
+                if not isinstance(a, int):
+                    a = int(a[0])
+
+                for w in range(random.randint(min_works_per_faculty, a)):
                     w_uri = g.add_work(p_uri)
                     work_uris.append(w_uri)
                     n_works += 1
 
+    print("People", n_people, "Works", n_works)
+
     # once all the authors and works are created, add co-authors and co-author stubs
 
+    nw_uri = 0
     for w_uri in work_uris:
+        nw_uri += 1
         g.add_coauthors(w_uri)
+        if nw_uri % 10 == 0:
+            print("Adding coauthors for work", nw_uri)
 
     f = open("sample-data.ttl", "w")
     print(g.serialize(format="ttl").decode('utf-8'), file=f)
